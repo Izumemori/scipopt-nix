@@ -3,15 +3,15 @@
 {
   gcg = {
     pname = "gcg";
-    version = "v363";
+    version = "v370";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "gcg";
-      rev = "v363";
+      rev = "v370";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = true;
-      sha256 = "sha256-ese9nR9mWorYBDxFcQGdk6LNIRM/FhuvGI3QyC6cQmM=";
+      sha256 = "sha256-s0RlfwAVTaSS9FvLuyZvEcTI+UzJkNqh3THeNumS3bY=";
     };
   };
   ipopt = {
@@ -27,58 +27,58 @@
   };
   mip-dd = {
     pname = "mip-dd";
-    version = "v1.0.0";
+    version = "v2.0.0";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "MIP-DD";
-      rev = "v1.0.0";
+      rev = "v2.0.0";
       fetchSubmodules = false;
-      sha256 = "sha256-1xUBhBq0Ie4MG65GW4UrWKcRj1Po/uT7Z1tptu7DTL0=";
+      sha256 = "sha256-r46ICeXUjFGKdGC+kBHEjGdA9nUjb7rkAmtOxYml0K4=";
     };
   };
   mumps-harness = {
     pname = "mumps-harness";
-    version = "releases/3.0.7";
+    version = "releases/3.0.8";
     src = fetchFromGitHub {
       owner = "coin-or-tools";
       repo = "ThirdParty-Mumps";
-      rev = "releases/3.0.7";
+      rev = "releases/3.0.8";
       fetchSubmodules = false;
-      sha256 = "sha256-4P/aR2oUKU5l3eTVs8twQHS3fyPDD7rkAcFc20ZzZHU=";
+      sha256 = "sha256-z42cNy+IlFRXAbtfPsyL3Z6kjVAJYfic/m4IaG2smn8=";
     };
   };
   papilo = {
     pname = "papilo";
-    version = "v2.3.1";
+    version = "v2.4.0";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "papilo";
-      rev = "v2.3.1";
+      rev = "v2.4.0";
       fetchSubmodules = false;
-      sha256 = "sha256-N7ToON8Jx9zq4TKYVElxTn1aNDd5WiaHXPPVxF1CQpM=";
+      sha256 = "sha256-WMw9v57nuP6MHj9Ft4l5FxdIF5VUWCRm/909tbz7VD4=";
     };
   };
   pygcgopt = {
     pname = "pygcgopt";
-    version = "7cef83f85854f7f8616f27add2c1ca494ebbe8dd";
+    version = "f8e6393218185c02f6dbf68352f781086cdd310a";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "PyGCGOpt";
-      rev = "7cef83f85854f7f8616f27add2c1ca494ebbe8dd";
+      rev = "f8e6393218185c02f6dbf68352f781086cdd310a";
       fetchSubmodules = false;
-      sha256 = "sha256-3WWIFRwXXAwOfanq5iWdbYLWzndhFPItaannAtwK3m4=";
+      sha256 = "sha256-1duHmPs9chAWEMdXb+pWhDXUjb2z4fh9RZSpmiI7H4s=";
     };
-    date = "2024-07-06";
+    date = "2024-10-10";
   };
   pyscipopt = {
     pname = "pyscipopt";
-    version = "v5.1.1";
+    version = "v5.2.1";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "PySCIPOpt";
-      rev = "v5.1.1";
+      rev = "v5.2.1";
       fetchSubmodules = false;
-      sha256 = "sha256-j51AxMG1DPD/ORqkEzoBncpPnciqBaQBmOE7PnzakwA=";
+      sha256 = "sha256-dGXv1hvxPqeRWQz3Iy9ByoRy2GYoDJmW9CmdXpXanfQ=";
     };
   };
   pysoplex = {
@@ -95,15 +95,15 @@
   };
   scip = {
     pname = "scip";
-    version = "v911";
+    version = "v920";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "scip";
-      rev = "v911";
+      rev = "v920";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = true;
-      sha256 = "sha256-0iLoQpsPyPCsygStU6ueT3SZb9+XlwQuC0MUuFGu0w4=";
+      sha256 = "sha256-uYaG3m4uyuFmZKEBoZxsNOfAfrA8DIVIwaSXVlMb95U=";
     };
   };
   scippp = {
@@ -119,28 +119,28 @@
   };
   soplex = {
     pname = "soplex";
-    version = "release-711";
+    version = "release-712";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "soplex";
-      rev = "release-711";
+      rev = "release-712";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = true;
-      sha256 = "sha256-ZACxKQYlGmii3y2YwL/avqaw+b54uh3y0We8NDkqMC4=";
+      sha256 = "sha256-d2PhwfW46wcQGiMXfL3hzyZP50i2xoH7ZdC1WoC4/JE=";
     };
   };
   vipr = {
     pname = "vipr";
-    version = "1ce995609c7b5d382ca47b5e3bf9894ad52296e0";
+    version = "c83f4c208d6f4f9dd2ec372065701c93e0d5522b";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "vipr";
-      rev = "1ce995609c7b5d382ca47b5e3bf9894ad52296e0";
+      rev = "c83f4c208d6f4f9dd2ec372065701c93e0d5522b";
       fetchSubmodules = false;
-      sha256 = "sha256-7Cu9Rw5rr6wv1Ul+sSSXt+iIJ8X/FkoMKf5j4D9Zo7w=";
+      sha256 = "sha256-iaz/QD7kj/2g/DonuNCf1aJn/8mD/JseOgElAza4W+8=";
     };
-    date = "2024-06-06";
+    date = "2024-10-23";
   };
   zimpl = {
     pname = "zimpl";
