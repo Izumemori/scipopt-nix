@@ -16,13 +16,13 @@
   };
   ipopt = {
     pname = "ipopt";
-    version = "releases/3.14.16";
+    version = "releases/3.14.17";
     src = fetchFromGitHub {
       owner = "coin-or";
       repo = "Ipopt";
-      rev = "releases/3.14.16";
+      rev = "releases/3.14.17";
       fetchSubmodules = false;
-      sha256 = "sha256-ZuiZZMq7NzOm6CCJgMBgEWs8PEfM3pVr2yOWbS42l8U=";
+      sha256 = "sha256-0IRHryADQArhhtfbQjCy+EDvVRi/ywc51IwiQOfWlR4=";
     };
   };
   mip-dd = {
@@ -38,13 +38,13 @@
   };
   mumps-harness = {
     pname = "mumps-harness";
-    version = "releases/3.0.8";
+    version = "releases/3.0.9";
     src = fetchFromGitHub {
       owner = "coin-or-tools";
       repo = "ThirdParty-Mumps";
-      rev = "releases/3.0.8";
+      rev = "releases/3.0.9";
       fetchSubmodules = false;
-      sha256 = "sha256-z42cNy+IlFRXAbtfPsyL3Z6kjVAJYfic/m4IaG2smn8=";
+      sha256 = "sha256-WDveYhQzExQ445pcw/+6r8XMSx9KsBiYZzt5pkiWYO0=";
     };
   };
   papilo = {
@@ -60,15 +60,15 @@
   };
   pygcgopt = {
     pname = "pygcgopt";
-    version = "f8e6393218185c02f6dbf68352f781086cdd310a";
+    version = "0e12361612473234a3115671ad8ae3cbdc649380";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "PyGCGOpt";
-      rev = "f8e6393218185c02f6dbf68352f781086cdd310a";
+      rev = "0e12361612473234a3115671ad8ae3cbdc649380";
       fetchSubmodules = false;
-      sha256 = "sha256-1duHmPs9chAWEMdXb+pWhDXUjb2z4fh9RZSpmiI7H4s=";
+      sha256 = "sha256-rIaT1Pm3sENcxb9QOSWFXrXX0+sB/+GnXLoqKz73nYk=";
     };
-    date = "2024-10-10";
+    date = "2024-12-08";
   };
   pyscipopt = {
     pname = "pyscipopt";
@@ -103,7 +103,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = true;
-      sha256 = "sha256-uYaG3m4uyuFmZKEBoZxsNOfAfrA8DIVIwaSXVlMb95U=";
+      sha256 = "sha256-JCk1T74apNDNiSBQL3gGFi6EgC7qV75rDXCTDSZkEKw=";
     };
   };
   scippp = {
@@ -132,15 +132,15 @@
   };
   vipr = {
     pname = "vipr";
-    version = "c83f4c208d6f4f9dd2ec372065701c93e0d5522b";
+    version = "d499c7c5e832f00d28ae1da9d0aa3b4877f3233f";
     src = fetchFromGitHub {
       owner = "scipopt";
       repo = "vipr";
-      rev = "c83f4c208d6f4f9dd2ec372065701c93e0d5522b";
+      rev = "d499c7c5e832f00d28ae1da9d0aa3b4877f3233f";
       fetchSubmodules = false;
-      sha256 = "sha256-iaz/QD7kj/2g/DonuNCf1aJn/8mD/JseOgElAza4W+8=";
+      sha256 = "sha256-ggeyeEQIy12IqP3l8vv77toOD3XNNlF1tuG63Wirizk=";
     };
-    date = "2024-10-23";
+    date = "2025-01-07";
   };
   zimpl = {
     pname = "zimpl";

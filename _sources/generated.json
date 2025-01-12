@@ -33,11 +33,11 @@
             "name": null,
             "owner": "coin-or",
             "repo": "Ipopt",
-            "rev": "releases/3.14.16",
-            "sha256": "sha256-ZuiZZMq7NzOm6CCJgMBgEWs8PEfM3pVr2yOWbS42l8U=",
+            "rev": "releases/3.14.17",
+            "sha256": "sha256-0IRHryADQArhhtfbQjCy+EDvVRi/ywc51IwiQOfWlR4=",
             "type": "github"
         },
-        "version": "releases/3.14.16"
+        "version": "releases/3.14.17"
     },
     "mip-dd": {
         "cargoLocks": null,
@@ -73,11 +73,11 @@
             "name": null,
             "owner": "coin-or-tools",
             "repo": "ThirdParty-Mumps",
-            "rev": "releases/3.0.8",
-            "sha256": "sha256-z42cNy+IlFRXAbtfPsyL3Z6kjVAJYfic/m4IaG2smn8=",
+            "rev": "releases/3.0.9",
+            "sha256": "sha256-WDveYhQzExQ445pcw/+6r8XMSx9KsBiYZzt5pkiWYO0=",
             "type": "github"
         },
-        "version": "releases/3.0.8"
+        "version": "releases/3.0.9"
     },
     "papilo": {
         "cargoLocks": null,
@@ -101,7 +101,7 @@
     },
     "pygcgopt": {
         "cargoLocks": null,
-        "date": "2024-10-10",
+        "date": "2024-12-08",
         "extract": null,
         "name": "pygcgopt",
         "passthru": null,
@@ -113,11 +113,11 @@
             "name": null,
             "owner": "scipopt",
             "repo": "PyGCGOpt",
-            "rev": "f8e6393218185c02f6dbf68352f781086cdd310a",
-            "sha256": "sha256-1duHmPs9chAWEMdXb+pWhDXUjb2z4fh9RZSpmiI7H4s=",
+            "rev": "0e12361612473234a3115671ad8ae3cbdc649380",
+            "sha256": "sha256-rIaT1Pm3sENcxb9QOSWFXrXX0+sB/+GnXLoqKz73nYk=",
             "type": "github"
         },
-        "version": "f8e6393218185c02f6dbf68352f781086cdd310a"
+        "version": "0e12361612473234a3115671ad8ae3cbdc649380"
     },
     "pyscipopt": {
         "cargoLocks": null,
@@ -174,7 +174,7 @@
             "owner": "scipopt",
             "repo": "scip",
             "rev": "v920",
-            "sha256": "sha256-uJbtSYIlSyWc1GeI5uhZqj6CQDvYGVxmX6hDyNz50WI=",
+            "sha256": "sha256-JCk1T74apNDNiSBQL3gGFi6EgC7qV75rDXCTDSZkEKw=",
             "type": "github"
         },
         "version": "v920"
@@ -221,7 +221,7 @@
     },
     "vipr": {
         "cargoLocks": null,
-        "date": "2024-10-23",
+        "date": "2025-01-07",
         "extract": null,
         "name": "vipr",
         "passthru": null,
@@ -233,11 +233,11 @@
             "name": null,
             "owner": "scipopt",
             "repo": "vipr",
-            "rev": "c83f4c208d6f4f9dd2ec372065701c93e0d5522b",
-            "sha256": "sha256-iaz/QD7kj/2g/DonuNCf1aJn/8mD/JseOgElAza4W+8=",
+            "rev": "d499c7c5e832f00d28ae1da9d0aa3b4877f3233f",
+            "sha256": "sha256-ggeyeEQIy12IqP3l8vv77toOD3XNNlF1tuG63Wirizk=",
             "type": "github"
         },
-        "version": "c83f4c208d6f4f9dd2ec372065701c93e0d5522b"
+        "version": "d499c7c5e832f00d28ae1da9d0aa3b4877f3233f"
     },
     "zimpl": {
         "cargoLocks": null,
